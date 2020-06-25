@@ -13,6 +13,18 @@ myButton.addEventListener('click', () => {
 
 const greenButton = document.getElementById('buttGreen');
 greenButton.addEventListener('click',() => {
-    console.log('button worked');
+const colorFieldA = document.getElementById('colorsBottom');
+const colorFieldB = document.getElementById('colorsTop');
+colorFieldA.style.background = 'green';
+colorFieldB.style.background = 'green';
+
+});
+
+const blueButton = document.getElementById('buttBlue');
+blueButton.addEventListener('click',() => {
+    const colorFieldA = document.getElementById('colorsBottom');
+    const colorFieldB = document.getElementById('colorsTop');
+    colorFieldA.style.background = 'blue';
+    colorFieldB.style.background = 'blue';
 })
 
