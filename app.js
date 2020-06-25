@@ -2,8 +2,8 @@ const myButton = document.getElementById('nameButton');
 myButton.addEventListener('click', () => {
     const userNameInput = document.getElementById('nameField');
     const nameDisplay = document.getElementById('name');
-   const value = userNameInput.value;
-   nameDisplay.textContent = value;
+    const value = userNameInput.value;
+    nameDisplay.textContent = value;
     
     //get input
     //get inputs value
