@@ -26,5 +26,21 @@ blueButton.addEventListener('click',() => {
     const colorFieldB = document.getElementById('colorsTop');
     colorFieldA.style.background = 'blue';
     colorFieldB.style.background = 'blue';
-})
+});
+
+const pinkButton = document.getElementById('buttPink');
+pinkButton.addEventListener('click',() => {
+    const colorFieldA = document.getElementById('colorsTop');
+    const colorFieldB = document.getElementById('colorsBottom');
+    colorFieldA.style.background = 'pink';
+    colorFieldB.style.background = 'pink';
+});
+
+const redButton = document.getElementById('buttRed');
+redButton.addEventListener("click", () => {
+    const colorFieldA = document.getElementById('colorsTop');
+    const colorFieldB = document.getElementById('colorsBottom');
+    colorFieldA.style.background = 'red';
+    colorFieldB.style.background = 'red';
+});
 

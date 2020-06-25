@@ -108,3 +108,13 @@ main {
     background-color: pink;
     width: 50px;
 }
+
+#buttRed {
+    margin: 10px;
+    background-color: red;
+    width: 50px;
+}
+
+#colorButtons {
+    display: inline;
+}
