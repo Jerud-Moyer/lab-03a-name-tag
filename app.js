@@ -9,6 +9,10 @@ myButton.addEventListener('click', () => {
     //get inputs value
     //get div
     // set text content div to input value
-    console.log('it worked!');
 });
+
+const greenButton = document.getElementById('buttGreen');
+greenButton.addEventListener('click',() => {
+    console.log('button worked');
+})
 

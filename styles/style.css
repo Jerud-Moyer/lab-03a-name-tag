@@ -90,17 +90,21 @@ main {
 
 }
 
-#buttRed {
+#buttGreen {
     margin: 10px;
-    background-color: red;
+    background-color: green;
+    width: 50px;
 }
 
 #buttBlue {
     margin: 10px;
     background-color: blue;
+    width: 50px;
+
 }
 
 #buttPink {
     margin: 10px;
     background-color: pink;
+    width: 50px;
 }
